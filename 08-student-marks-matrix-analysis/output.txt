@@ -1,0 +1,24 @@
+==============================================================================
+                 STUDENT MARKS MATRIX ANALYSIS
+==============================================================================
+Student   Maths      Physics    Chemistry  English    CS         Total    Avg     
+------------------------------------------------------------------------------
+Aman      78         85         69         74         88         394      78.80   
+Bhavya    92         90         94         89         96         461      92.20   
+Charan    45         52         49         60         55         261      52.20   
+Divya     67         73         70         65         72         347      69.40   
+Eshan     88         79         85         91         84         427      85.40   
+Farah     56         61         58         62         59         296      59.20   
+------------------------------------------------------------------------------
+Sub Avg   71.00      73.33      70.83      73.50      75.67      
+
+TOP 3 PERFORMERS:
+  1. Bhavya - Total: 461, Average: 92.20
+  2. Eshan - Total: 427, Average: 85.40
+  3. Aman - Total: 394, Average: 78.80
+
+SUBJECTS WITH LOW AVERAGE (below 60.0):
+  None. All subjects are above threshold.
+
+STUDENTS WITH AT LEAST ONE SUBJECT BELOW 50:
+  Charan: Maths(45), Chemistry(49)

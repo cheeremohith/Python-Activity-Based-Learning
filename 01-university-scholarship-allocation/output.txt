@@ -1,0 +1,32 @@
+========================================================================
+        UNIVERSITY SCHOLARSHIP ALLOCATION - RANKED LIST
+========================================================================
+Rank  Roll     Name       Aggregate    Attendance   Income    
+------------------------------------------------------------------------
+1     S105     Fatima     91.20        97.0         250000    
+2     S101     Ananya     80.80        92.0         320000    
+3     S108     Ishaan     61.40        88.0         410000    
+4     S104     Deepak     61.40        76.0         495000    
+------------------------------------------------------------------------
+
+TIE RESOLUTION DETAILS:
+  Tie on aggregate 61.40 between S108 (Ishaan) and S104 (Deepak).
+  -> Resolved by attendance: 88.0% vs 76.0% (higher first).
+
+REJECTED APPLICANTS:
+------------------------------------------------------------------------
+S102 (Bharat):
+  - Aggregate 58.60 is below minimum 60
+  - Physics mark 48 is below minimum 50
+S103 (Chitra):
+  - Family income Rs 610000 exceeds limit Rs 500000
+S106 (Gopal):
+  - Aggregate 55.40 is below minimum 60
+  - Chemistry mark 49 is below minimum 50
+  - Attendance 71.0% is below minimum 75%
+S107 (Harsha):
+  - Family income Rs 540000 exceeds limit Rs 500000
+------------------------------------------------------------------------
+Total applicants : 8
+Eligible         : 4
+Rejected         : 4

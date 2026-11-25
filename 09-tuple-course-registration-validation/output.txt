@@ -1,0 +1,47 @@
+==========================================================================
+        TUPLE-BASED COURSE REGISTRATION VALIDATION
+==========================================================================
+Course Catalog:
+  CS101 - Programming Basics (4 credits)
+  CS102 - Data Structures (4 credits)
+  MA101 - Calculus (3 credits)
+  PH101 - Physics (3 credits)
+  EN101 - English (2 credits)
+  CS201 - Algorithms (4 credits)
+
+Invalid combinations:
+  - CS101 + CS201
+
+--------------------------------------------------------------------------
+VALIDATION RESULTS:
+--------------------------------------------------------------------------
+
+Student: Ravi (26001)
+  Courses : CS101, MA101, PH101
+  Status  : VALID
+
+Student: Sita (26002)
+  Courses : CS101, CS102, EN101
+  Status  : VALID
+
+Student: Mohan (26003)
+  Courses : CS101, MA101, CS101
+  Status  : INVALID
+  - Duplicate registrations: CS101
+
+Student: Neha (26004)
+  Courses : CS101, CS201, MA101
+  Status  : INVALID
+  - Invalid combination: CS101 and CS201 cannot be taken together
+
+Student: Arjun (26005)
+  Courses : CS102, MA101, XX999
+  Status  : INVALID
+  - Unknown course code(s): XX999
+
+Student: Kiran (26006)
+  Courses : EN101, PH101
+  Status  : VALID
+
+==========================================================================
+SUMMARY: Total=6, Valid=3, Invalid=3

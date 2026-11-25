@@ -1,0 +1,113 @@
+==========================================================
+   COMPREHENSIVE SMART CAMPUS MANAGEMENT SIMULATION
+==========================================================
+
+----------- MAIN MENU -----------
+1. Add Student
+2. View Students
+3. Update Attendance
+4. Register Student for Event
+5. Allocate Resource
+6. Show Summary Report
+7. Exit
+Enter choice: 
+--- STUDENT RECORDS ---
+ID     Name       Attendance   Marks                          Avg     
+------------------------------------------------------------------------
+S01    Aarav      88.0         78,82,74,80                    78.50   
+S02    Diya       72.0         65,70,68,60                    65.75   
+S03    Rohan      91.0         85,90,88,92                    88.75   
+------------------------------------------------------------------------
+
+----------- MAIN MENU -----------
+1. Add Student
+2. View Students
+3. Update Attendance
+4. Register Student for Event
+5. Allocate Resource
+6. Show Summary Report
+7. Exit
+Enter choice: Enter student ID: Enter student name: Enter attendance percentage: Enter 4 marks (comma separated): Student S04 (Meera) added successfully.
+
+----------- MAIN MENU -----------
+1. Add Student
+2. View Students
+3. Update Attendance
+4. Register Student for Event
+5. Allocate Resource
+6. Show Summary Report
+7. Exit
+Enter choice: 
+--- STUDENT RECORDS ---
+ID     Name       Attendance   Marks                          Avg     
+------------------------------------------------------------------------
+S01    Aarav      88.0         78,82,74,80                    78.50   
+S02    Diya       72.0         65,70,68,60                    65.75   
+S03    Rohan      91.0         85,90,88,92                    88.75   
+S04    Meera      85.0         72.0,78.0,80.0,75.0            76.25   
+------------------------------------------------------------------------
+
+----------- MAIN MENU -----------
+1. Add Student
+2. View Students
+3. Update Attendance
+4. Register Student for Event
+5. Allocate Resource
+6. Show Summary Report
+7. Exit
+Enter choice: Enter student ID: Enter event name: Student S04 registered for Tech Fest.
+
+----------- MAIN MENU -----------
+1. Add Student
+2. View Students
+3. Update Attendance
+4. Register Student for Event
+5. Allocate Resource
+6. Show Summary Report
+7. Exit
+Enter choice: Enter student ID to update attendance: Enter new attendance percentage: Attendance updated for Diya: 72.0% -> 95.0%
+
+----------- MAIN MENU -----------
+1. Add Student
+2. View Students
+3. Update Attendance
+4. Register Student for Event
+5. Allocate Resource
+6. Show Summary Report
+7. Exit
+Enter choice: Enter resource name: Enter quantity to allocate: Allocated 1 Projector. Remaining: 2
+
+----------- MAIN MENU -----------
+1. Add Student
+2. View Students
+3. Update Attendance
+4. Register Student for Event
+5. Allocate Resource
+6. Show Summary Report
+7. Exit
+Enter choice: 
+========== CAMPUS SUMMARY REPORT ==========
+
+Students: 4
+  Attendance >= 75% : 4
+  Overall class avg : 77.31
+
+Events:
+  Tech Fest: 2/3 registered
+  Sports Day: 0/2 registered
+
+Resources:
+  Projector: 3/5 allocated (available 2)
+  Lab PC: 18/30 allocated (available 12)
+  Seminar Hall: 1/2 allocated (available 1)
+===========================================
+
+----------- MAIN MENU -----------
+1. Add Student
+2. View Students
+3. Update Attendance
+4. Register Student for Event
+5. Allocate Resource
+6. Show Summary Report
+7. Exit
+Enter choice: Exiting Smart Campus Management System. Goodbye!

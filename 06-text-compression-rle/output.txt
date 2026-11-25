@@ -1,0 +1,51 @@
+======================================================================
+        TEXT COMPRESSION USING CHARACTER RUNS (RLE)
+======================================================================
+Original : AAABBBCCDAA
+Encoded  : A3B3C2D1A2
+Decoded  : AAABBBCCDAA
+Lengths  : original=11, encoded=10
+Saving   : 9.09%
+Result   : Compression is beneficial.
+Check    : Decoded matches original. OK
+----------------------------------------------------------------------
+Original : ABCD
+Encoded  : A1B1C1D1
+Decoded  : ABCD
+Lengths  : original=4, encoded=8
+Saving   : -100.00%
+Result   : Compression is NOT beneficial (encoded is same or larger).
+Check    : Decoded matches original. OK
+----------------------------------------------------------------------
+Original : AAAAAA
+Encoded  : A6
+Decoded  : AAAAAA
+Lengths  : original=6, encoded=2
+Saving   : 66.67%
+Result   : Compression is beneficial.
+Check    : Decoded matches original. OK
+----------------------------------------------------------------------
+Original : AABBAABB
+Encoded  : A2B2A2B2
+Decoded  : AABBAABB
+Lengths  : original=8, encoded=8
+Saving   : 0.00%
+Result   : Compression is NOT beneficial (encoded is same or larger).
+Check    : Decoded matches original. OK
+----------------------------------------------------------------------
+Original : WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB
+Encoded  : W12B1W12B3W24B1
+Decoded  : WWWWWWWWWWWWBWWWWWWWWWWWWBBBWWWWWWWWWWWWWWWWWWWWWWWWB
+Lengths  : original=53, encoded=15
+Saving   : 71.70%
+Result   : Compression is beneficial.
+Check    : Decoded matches original. OK
+----------------------------------------------------------------------
+Original : aabbcc
+Encoded  : a2b2c2
+Decoded  : aabbcc
+Lengths  : original=6, encoded=6
+Saving   : 0.00%
+Result   : Compression is NOT beneficial (encoded is same or larger).
+Check    : Decoded matches original. OK
+----------------------------------------------------------------------

@@ -1,0 +1,32 @@
+====================================================================
+           PASSWORD POLICY VALIDATION ENGINE
+====================================================================
+Policy: length 8-20, upper, lower, digit, special,
+        no 3 repeated chars, no prohibited substrings.
+Prohibited: password, admin, qwerty, 12345
+
+Password: Hello@123          -> VALID
+
+Password: hello123           -> INVALID
+   - Missing uppercase letter.
+   - Missing special character.
+
+Password: PASSWORD@1         -> INVALID
+   - Missing lowercase letter.
+   - Contains prohibited substring(s): password
+
+Password: Abc@1              -> INVALID
+   - Length 5 is less than minimum 8.
+
+Password: Good#Pass9         -> VALID
+
+Password: AAAbbb@123         -> INVALID
+   - Contains 3 or more same characters in a row.
+
+Password: MyAdmin@2024       -> INVALID
+   - Contains prohibited substring(s): admin
+
+Password: Strong$Pass7       -> VALID
+
+--------------------------------------------------------------------
+Total checked: 8 | Valid: 3 | Invalid: 5

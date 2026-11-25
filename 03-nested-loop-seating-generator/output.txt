@@ -1,0 +1,23 @@
+============================================================
+     NESTED LOOP EXAMINATION SEATING GENERATOR
+============================================================
+Classroom size: 5 rows x 6 columns
+Reserved positions (row,col): [(1, 2), (2, 4), (4, 1)]
+Alternate seating restriction: ON (checker pattern blocked)
+
+      C1    C2    C3    C4    C5    C6    
+      ------------------------------------
+R1    R001  RESV  R002  ----  R003  ----  
+R2    ----  R004  ----  RESV  ----  R005  
+R3    R006  ----  R007  ----  R008  ----  
+R4    RESV  R009  ----  R010  ----  R011  
+R5    R012  ----  R013  ----  R014  ----  
+
+SUMMARY:
+  Total seats     : 30
+  Reserved seats  : 3
+  Blocked seats   : 13
+  Filled seats    : 14
+  Empty seats     : 0
+  Students placed : 14
+  Students waiting: 1

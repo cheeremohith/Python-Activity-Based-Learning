@@ -1,0 +1,113 @@
+=======================================================
+      ATM MENU-DRIVEN BANKING SIMULATION
+=======================================================
+Opening balance: Rs 5000.00
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: Enter deposit amount: Deposited Rs 5000.00. New balance: Rs 10000.00
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: Enter withdrawal amount: Withdrawn Rs 2000.00. New balance: Rs 8000.00
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: Enter withdrawal amount: Withdrawal exceeds limit of Rs 10000.00.
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: Enter withdrawal amount: Withdrawal must be a multiple of Rs 100.
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: Enter withdrawal amount: Invalid input. Please enter a numeric amount.
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: Current balance: Rs 8000.00
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: Enter deposit amount: Deposited Rs 250.50. New balance: Rs 8250.50
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: 
+--- MINI STATEMENT ---
+No.   Type         Amount       Balance     
+---------------------------------------------
+1     DEPOSIT      5000.00      10000.00    
+2     WITHDRAW     2000.00      8000.00     
+3     DEPOSIT      250.50       8250.50     
+---------------------------------------------
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: Enter withdrawal amount: Withdrawn Rs 100.00. New balance: Rs 8150.50
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: 
+--- MINI STATEMENT ---
+No.   Type         Amount       Balance     
+---------------------------------------------
+1     DEPOSIT      5000.00      10000.00    
+2     WITHDRAW     2000.00      8000.00     
+3     DEPOSIT      250.50       8250.50     
+4     WITHDRAW     100.00       8150.50     
+---------------------------------------------
+
+--------- ATM MENU ---------
+1. Deposit
+2. Withdraw
+3. Balance Inquiry
+4. Mini Statement
+5. Exit
+Enter your choice: 
+--- SESSION SUMMARY ---
+Final balance : Rs 8150.50
+Transactions  : 4
+Deposits      : 2
+Withdrawals   : 2
+Thank you for using the ATM. Goodbye!

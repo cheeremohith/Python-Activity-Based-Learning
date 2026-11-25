@@ -1,0 +1,46 @@
+=======================================================
+       ADVANCED NUMERIC PATTERN GENERATOR
+=======================================================
+
+Requested size: 5
+------------------------------
+Hollow Diamond (size 5):
+  1
+ 2 2
+3   3
+ 2 2
+  1
+Rows generated: 5
+
+Requested size: 7
+------------------------------
+Hollow Diamond (size 7):
+   1
+  2 2
+ 3   3
+4     4
+ 3   3
+  2 2
+   1
+Rows generated: 7
+
+Requested size: 4
+------------------------------
+Error: size must be an odd number for a symmetric diamond.
+
+Requested size: 2
+------------------------------
+Error: size must be at least 3.
+
+=======================================================
+Default pattern (size 9):
+------------------------------
+    1
+   2 2
+  3   3
+ 4     4
+5       5
+ 4     4
+  3   3
+   2 2
+    1
